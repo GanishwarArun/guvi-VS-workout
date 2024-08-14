@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind CSS day1</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+     <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="grid grid-rows-5 grid-cols-3 text-center gap-4 min-h-screen">
+    <div class="col-span-full border border-2 border-slate-700">header</div>
+    <div class="row-span-2 border border-2 border-slate-700">side Menu</div>
+    <div class="col-start-2 col-end-4 border border-2 border-slate-700">context 1</div>
+    <div class="col-span-2 border border-2 border-slate-700">context 2</div>
+    <div class="col-start-1 col-end-4 border border-2 border-slate-700">Whole Width content</div>
+    <div class="col-span-3 border border-2 border-slate-700">Footer</div>
+  </div>
+
+</body>
+</html>
+
