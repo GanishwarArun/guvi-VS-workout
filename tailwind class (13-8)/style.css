@@ -1,0 +1,7 @@
+.triangle{
+    background: linear-gradient(to top right, #b00000 50%);
+}
+
+.invert-triangle {
+    background: linear-gradient(to top left, #b00000 50%, transparent50%);
+}
